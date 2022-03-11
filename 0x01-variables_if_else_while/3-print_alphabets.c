@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-	char c ='a';
-	char C ='A';
-	if (c <= 'z')
+	char c = 'a';
+	char C = 'A';
+
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	else if (C <= 'Z')
+	while (C <= 'Z')
 	{
 		putchar(C);
 		C++;
