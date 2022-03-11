@@ -10,11 +10,11 @@
 int main(void)
 {
 	int c;
-	int d = 0;
+	int d = 1;
 
 	while (d < 10)
 	{
-		c = 0;
+		c = 1;
 		while (c < 10)
 		{
 
