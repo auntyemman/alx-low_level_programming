@@ -9,27 +9,27 @@
  */
 int main(void)
 {
-	int c;
-	int d = 1;
+	int c, i;
 
-	while (d < 10)
+	for (c = '0'; c <= '9'; c++)
 	{
-		c = 1;
-		while (c < 10)
+		for (i = '0'; i <= '9'; i++)
 		{
-
-			putchar('0' + d);
-			putchar('0' + c);
-
-			if (c + d != 18)
+			if (c < i)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			c++;
 		}
-		d++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
