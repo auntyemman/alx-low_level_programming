@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- *  Description: Get a random number and check its last digit, compare it with 5
+ * Description: Get a random number and check its last digit, compare it.
  * Return: Always 0, meaning success
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 	else if (mole == 0)
 		printf("Last digit of %d is %d and is 0\n", n, mole);
 	else if (mole < 6)
-		printf("Last digit of %d is %d and is less than 6 and 0\n", n, mole);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, mole);
 
 	return (0);
 }
