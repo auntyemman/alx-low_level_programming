@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /**
  * Main: The entry point of C program
  * Description: The program prints _putchar
@@ -14,7 +13,7 @@ int main(void)
 
 	for (i=0; i<9; i++)
 	{
-		_putchar("%c", c[i]);
+		printf("%c", c[i]);
 	}
 	return (0);
 }
