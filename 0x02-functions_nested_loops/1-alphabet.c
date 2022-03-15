@@ -2,10 +2,9 @@
 /**
  * main - the starting point of the program
  * Description: The program prints the alphabets in lowercase
- * followed by a new line
- * Return: Always 0.
+ * Return: void
  */
-char print_alphabet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -17,9 +16,4 @@ char print_alphabet(void)
 	}
 	_putchar('\n');
 
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
