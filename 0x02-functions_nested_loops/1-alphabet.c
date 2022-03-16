@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_alphabet - check the code for Holberton School students.
@@ -8,19 +9,14 @@
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char c = 'a';
 
-	while (alp <= 'z')
+	while (c <= 'z')
 	{
-		putchar (alp);
-		alp++;
+		_putchar (c);
+		c++;
 
 	}
-	putchar ('\n');
+	_putchar ('\n');
 
-}
-int main (void)
-{
-	print_alphabet();
-	return (0);
 }
