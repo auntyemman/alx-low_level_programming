@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * isInteger - checks if s is an integer
- * @s: string to check
+ * @s: string to check.
  * Return: 0 or 1
  */
 
