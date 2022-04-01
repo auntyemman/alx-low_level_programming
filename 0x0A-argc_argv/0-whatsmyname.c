@@ -7,17 +7,9 @@
  * Return: 0
  */
 
+
 int main(int argc, char *argv[])
 {
-	int i;
-
-	if (argc > 1)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			printf("argv[%d] = %s\n", i, argv[i]);
-
-		}
-	}
+	printf("%s\n", argv[argc - 1]);
 	return (0);
 }
