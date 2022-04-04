@@ -1,23 +1,32 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _strdup - copy
+ * @str: pointer to string
+ * Return: pointer
  */
-int main(void)
-{
-    char *s;
 
-    s = _strdup("Holberton");
-    if (s == NULL)
-    {
-        printf("failed to allocate memory\n");
-        return (1);
-    }
-    printf("%s\n", s);
-    free(s);
-    return (0);
+char *_strdup(char *str)
+{
+	char *s;
+	int i = 0, j;
+
+	if (!str)
+		return (NULL);
+
+	while (*(str + i))
+		i++;
+	i++;
+	s = malloc(sizeof(char) * i);
+
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+
+	for (j = 0; j <= i; j++)
+	{
+		s[j] = str[j];
+	}
+	return (s);
 }
