@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * main - The opcodes should be printed in hexadecimal
 * @argc: The number of arguments supplied to the program.
