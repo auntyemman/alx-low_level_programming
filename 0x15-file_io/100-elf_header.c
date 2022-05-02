@@ -1,9 +1,4 @@
-#include "holberton.h"
-
-/*
- * File: 100-elf_header.c
- * Auth: David Musau (Norman David)
- */
+#include "main.h"
 
 /**
  * check_elf - Checks if a file is an ELF file.
